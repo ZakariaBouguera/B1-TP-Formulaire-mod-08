@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sanaya</title>
+</head>
+<body>
+    <h1>Nous contacter </h1>
+    <form action="recapituler.php" method="post">
+        <label>Civilité</label>
+		<input type="radio" name="civilite" value="Mr"  /> M
+		<input type="radio" name="civilite" value="Mme" /> Mme
+		<input type="radio" name="civilite" value="Mlle"  /> Mlle
+        <br>
+        <br>
+        <br>
+
+        <label>Nom</label>
+        <input type="text" name="nom" placeholder = 'exemple"BOUGUERA"'  />
+        <br>
+		<br>
+		<br>
+        <label>Prénom</label>
+        <input type="text" name="prenom" placeholder = 'exemple"Zakaria"'  />
+		<br>
+		<br>
+		<br>
+        <label>Numéro de téléphone</label>
+        <input type="tel" name="tel" placeholder = "06 66 66 66 66"  />
+        <br>
+        <br>
+		<br>
+        <label>Adresse Electronique</label>
+        <input type="text" name="email" placeholder= "sanaya@lla.com" />
+        <br>
+        <br>
+        <br>
+        <label for="sujet">Raison</label>
+		<input type="text" name="raison" placeholder = "inscription en SIO"/>
+        </select>
+        <br>
+        <br>
+        <br>
+		<label>Modes de réponses</label>
+        <select name="mode">
+		<option value="Message"> Par Message SMS
+		<option value="appel telephonique">Par télephone
+		<option value="email"> Par Email
+        </select>
+	    <br>
+        <br>
+        <br>
+        <label>Message Complémentaire</label>
+        <br>
+        <br>
+        <input type = "text" name="message" placeholder = "Donner nous plus de détails"/>
+        <br>
+        <br>
+        <br>
+        
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Rénisialiser">
+    </form>
+</body>
