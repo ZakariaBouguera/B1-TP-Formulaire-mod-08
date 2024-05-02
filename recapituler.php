@@ -57,3 +57,4 @@ else{
         echo "</ul>";
    }
 ?>
+<div><a href = saisieContact.html> Retourner au formulaire </a></div>
